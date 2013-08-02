@@ -1,0 +1,40 @@
+// Place all the styles related to the comments controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$box-padding: 10px;
+
+.comments {
+  .comment {
+    background-color: #EEE;
+    margin: 10px 0;
+    padding: $box-padding;
+    
+    .delete {
+      float: right;
+    }
+    
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+form {
+  background-color: #D1F3CC;
+  padding: $box-padding;
+  
+  label, input {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 5px;
+    font-size: 20px;
+  }
+}
